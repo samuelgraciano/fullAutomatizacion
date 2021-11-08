@@ -1,0 +1,11 @@
+{
+  "urlCreateUser": "https://qa-personas.credinet.co/",
+  "credit": {
+    "url" : "https://qa.credinet.co/home/credits",
+    "user": "davidCA",
+    "password": "123456"
+
+  },
+  "payCreditUrl": "https://payonline-front-web-qa.sistecredito.com/"
+
+}

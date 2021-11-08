@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Pay credit with request and creation credit" skipped="0" tests="1" time="84.94" timestamp="2021-10-08 10:34:13"><testcase name="Request, create and pay a credit"><failure message="&#10;Expected:  an element containing only 'jue, 16:23'&#10;     but:  was the element identified by xpath: //div[@data-e2e-message-status] [7:53]" type="java.lang.AssertionError">
+Expected:  an element containing only 'jue, 16:23'
+     but:  was the element identified by xpath: //div[@data-e2e-message-status] [7:53]</failure><system-err>
+Expected:  an element containing only 'jue, 16:23'
+     but:  was the element identified by xpath: //div[@data-e2e-message-status] [7:53]&#13;
+com.sistecredito.retotecnico.tasks.WaitToken.performAs(WaitToken.java:19)&#13;
+com.sistecredito.retotecnico.questions.GetToken.answeredBy(GetToken.java:25)&#13;
+com.sistecredito.retotecnico.questions.GetToken.answeredBy(GetToken.java:9)&#13;
+com.sistecredito.retotecnico.tasks.EnterTheToken.performAs(EnterTheToken.java:37)&#13;
+com.sistecredito.retotecnico.tasks.RequestQuota.performAs(RequestQuota.java:28)&#13;
+com.sistecredito.retotecnico.stepdefinitions.PayCreditStepDefinitions.heRequestedAValidQuota(PayCreditStepDefinitions.java:65)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
